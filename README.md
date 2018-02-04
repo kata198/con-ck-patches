@@ -1,4 +1,4 @@
-# con-ck-patches
+# con-ck-patches (unofficial)
 
 **The -ck patchset (maybe now discontinued by author?) for linux merged into 4.15**
 
