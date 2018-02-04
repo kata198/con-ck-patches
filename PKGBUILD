@@ -57,7 +57,8 @@ prepare() {
   # https://bugs.archlinux.org/task/56711
   patch -Np1 -i ../0002-drm-i915-edp-Only-use-the-alternate-fixed-mode-if-it.patch
 
-  cat "${startdir}/linux-4.15-ck0.patch" | patch -p1
+  # Apply ck patchset
+  patch -Np1 -i "${startdir}/linux-4.15-ck0.patch"
 
   cp -Tf ../config .config
 
