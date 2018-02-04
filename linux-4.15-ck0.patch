@@ -11333,7 +11333,7 @@ Enjoy!!
  PHONY := _all
  _all:
  
-+CKVERSION = -ck1
++CKVERSION = -ck0
 +CKNAME = MuQSS Powered
 +EXTRAVERSION := $(EXTRAVERSION)$(CKVERSION)
 +
