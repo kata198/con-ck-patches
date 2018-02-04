@@ -17,10 +17,6 @@ All this said, I did not do extensive research nor speed a month porting this, t
 Enjoy!!
 
 
-**Update**
-
-After a long time running I did get a couple "detecting stall" tracebacks found in kernel log (aka kmsg, viewable via dmesg tool)
-
 I have noticed no hangs on anything, but this may indicate that there are changes between 4.14 and 4.15 which required additional code beyond what I provided and the port. I would still say it's completely safe and plan on continue running it myself, but if anyone has some free time may be worth looking into seeking out a "resolution." Again, I am also using virtualbox so this may just be some issue upon  resume from suspend, and seems benign.
 
 
