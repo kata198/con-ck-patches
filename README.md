@@ -23,6 +23,10 @@ Enjoy!!
 Applying the Patch
 ==================
 
+I've provided the PKGBUILD for 4.15-1-ck0 to replace the PKGBUILD in the arch repo, just override it if you want.
+
+Or to manually apply changes:
+
 The patch is provided as plaintext at a -p1 level from the root of the extracte d linux source.
 
 With Makepkg
