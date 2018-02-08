@@ -1,6 +1,8 @@
 # con-ck-patches (unofficial)
 
-**The -ck patchset (maybe now discontinued by author?) for linux merged into 4.15**
+**The -ck patchset for linux merged into 4.15**
+
+NOTE: This is an unofficial release. The "Early Bird Special." Con Kolivas has stated that he will get to doing an official release within a week or so (so mid-February).
 
 What?
 =====
@@ -11,16 +13,14 @@ These patches aimed at interactivity and used by the coolest of folks are origin
 
 https://ck-hack.blogspot.com/
 
-I am currently running with this patchset in addition to the default archlinux patches applied to 4.15 on Archlinux ( www.archlinux.org ) on a 64-bit SMP/SMT system under Virtualbox. Things are stable, the only traceback in my kernel log are various things like "Detected Tx Hang" on my network card, which likely is an arifact of running under Virtualbox and not this patchset.
+I am currently running with this patchset in addition to the default archlinux patches applied to 4.15 on Archlinux ( www.archlinux.org ) on a 64-bit SMP/SMT system under Virtualbox. Things have been running stable for several days, no hangs, hickups, or anything of the sort.
 
-All this said, I did not do extensive research nor speed a month porting this, this is simply a one-night job spent porting my favourite kernel patchset over to the latest kernel. I make no promises that you will have similar stability, but on a similar system I don't see why you wouldn't have similar results.
+All this said, I have only tested this on a single machine with a single configuration. I do not anticipate that any alternate configurations, hardware or otherwise, will be anything less than 100% stable, but I also don't make a promise that it will be. You will just have to download and build to try it out for yourself :)
 
 Enjoy!!
 
 - Tim ( https://github.com/kata198/con-ck-patches )
 
-
-I have noticed no hangs on anything, but this may indicate that there are changes between 4.14 and 4.15 which required additional code beyond what I provided and the port. I would still say it's completely safe and plan on continue running it myself, but if anyone has some free time may be worth looking into seeking out a "resolution." Again, I am also using virtualbox so this may just be some issue upon  resume from suspend, and seems benign.
 
 
 Applying the Patch
