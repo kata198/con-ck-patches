@@ -4,6 +4,32 @@
 
 NOTE: This is an unofficial release. The "Early Bird Special." Con Kolivas has stated that he will get to doing an official release within a week or so (so mid-February).
 
+
+Update Feb 18 2018
+==================
+
+Con Kolivas has releasd the "official" version of the -ck patchset, 4.15-ck1 on Feb 18 2018 around 2AM EST.
+
+I have provided a diff from my -ck0 merge to the official -ck1 merge, available as: https://raw.githubusercontent.com/kata198/con-ck-patches/master/linux-4.15-ck0.patch
+
+This patch is provided just for curiousity sake, and in the slim event that one needs an incremental patch instead of a full patch (like maybe for a quicker build via *makepkg*
+
+Reading through, it looks like the only differences are:
+
+	1. Addition of options related to runqueue-sharing (was an experimental patch not included in 4.14-ck but now is considered stable enough.
+
+	2. A possible fix to a condition that I noted could be seen on -ck0 after restoring from suspend/sleep ( I'm running this in Virtualbox, and when the parent OS goes to sleep and then wakes up, sometimes there are panics and high-cpu usage / load henceforth on system until reboot)
+
+	3. Some minor cleanups
+
+
+Of course I would recommend usng the official release -ck1 in lieu of my merge -ck0. This patch is provided if for some reason you need to patch your -ck0 to -ck1
+
+Enjoy!!
+
+- Tim
+
+
 What?
 =====
 
